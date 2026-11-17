@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Object 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="museum.css" />
+        <script src="museum.js"></script>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    </head>
+    <body class="item r1" data-up="room-one.html" data-prev="" data-next="item-2.html">
+        <main class="page">
+            <a class="crumb" data-dir="out" href="room-one.html">&larr; Room One</a>
+            <h1>Hachimi Seal "Wildaughter" Sakura</h1>
+            <div class="meta">Participant 1, age 17 &middot; Companionship </div>
+            <div class="stage">
+                <model-viewer
+                    src="wildaughtercompressed.glb"
+                    alt="Object 1"
+                    auto-rotate
+                    camera-controls camera-orbit="0deg 75deg 140%"
+                    min-camera-orbit="auto 75deg auto" max-camera-orbit="auto 75deg auto"
+                    disable-zoom disable-pan
+                    style="position:absolute;inset:0;width:100%;height:100%"></model-viewer>
+            </div>
+            <p>
+                Fat, pink, and cute! Wildaughter was a gift from a close friend, initially given to replace its lost
+                predecessor, yet soon established its own personal tie with its owner. Being irresistibly squishy and
+                gentle to the touch, Hachimi Seal Sakura reminded its owner of themself. The strong sense of attachment
+                shared between Wildaughter and its owner is evidence of certain objects taking the role of intimate
+                companion.
+            </p>
+            <nav class="pn"><span></span><a data-dir="next" href="item-2.html">Next object &rarr;</a></nav>
+            <a class="btn" data-dir="out" href="room-one.html">Back to Room One</a>
+        </main>
+    </body>
+</html>

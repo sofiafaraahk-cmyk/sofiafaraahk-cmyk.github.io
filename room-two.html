@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Room Two: Memory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="museum.css" />
+    <script src="museum.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </head>
+  <body class="rp r2" data-prev="room-one.html" data-next="room-three.html">
+  <div class="hall"><div class="span"><div class="ext l"></div><div class="ext r"></div> 
+    <main class="room">
+      <div class="floor"></div>
+      <div class="runner"></div>
+      <div class="wall w1"></div>
+      <div class="wall w2"></div>
+      <div class="wall w3"></div>
+      <div class="title"><b>Room Two</b><i>Tap the frames!</i></div>
+      <a class="art a1" href="item-4.html" data-dir="in" data-item="4" style="--d: 0.2s" aria-label="Open Object 4"
+        ><div class="pic" style="background-image: url(linershafin.png)"></div
+      ></a>
+      <a class="plaque p1" href="item-4.html" data-dir="in" data-item="4" style="--d: 0.45s"
+        ><b>Liner 02</b><span>Participant 1</span></a
+      >
+      <a class="art a2" href="item-5.html" data-dir="in" data-item="5" style="--d: 0.35s" aria-label="Open Object 5"
+        ><div class="f f1" style="background-image: url(cutiepie-1.png)"></div>
+        <div class="f f2" style="background-image: url(cutiepie-2.png)"></div>
+        <div class="f f3" style="background-image: url(cutiepie-3.png)"></div>
+        <div class="f f4" style="background-image: url(cutiepie-4.png)"></div
+      ></a>
+      <a class="plaque p2" href="item-5.html" data-dir="in" data-item="5" style="--d: 0.6s"
+        ><b>Cutie Pie</b><span>Participant 5</span></a
+      >
+      <a class="art a3" href="item-6.html" data-dir="in" data-item="6" style="--d: 0.5s" aria-label="Open Object 6">
+           <model-viewer
+           src="goalglove.glb"
+           alt="Object 6"
+           auto-rotate
+           disable-zoom
+           interaction-prompt="none"
+           camera-orbit="0deg 75deg 140%"
+           style="width: 100%; height: 100%; pointer-events: none; background: transparent"></model-viewer>
+    </a>
+      <a class="plaque p3" href="item-6.html" data-dir="in" data-item="6" style="--d: 0.75s"
+        ><b>Goalkeeper's Glove</b><span>Participant 6</span></a
+      >
+      <a class="prev" data-dir="prev" href="room-one.html">&larr; Room One</a>
+      <a class="next" data-dir="next" href="room-three.html">Walk on to Room Three <i>&uarr;</i></a>
+      <div class="vignette"></div>
+    </main>
+    </div></div>
+  </body>
+</html>

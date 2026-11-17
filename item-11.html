@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Object 11</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="museum.css" />
+        <script src="museum.js"></script>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    </head>
+    <body class="item r4" data-up="room-four.html" data-prev="item-10.html" data-next="item-12.html">
+        <main class="page">
+            <a class="crumb" data-dir="out" href="room-four.html">&larr; Room Four</a>
+            <h1>Fox LEGO</h1>
+            <div class="meta">Participant 4, age 18 &middot; Self and Surrounding</div>
+            <div class="stage">
+                <model-viewer
+                    src="fox.glb"
+                    alt="Object 8"
+                    auto-rotate
+                    camera-controls camera-orbit="0deg 75deg 140%"
+                    min-camera-orbit="auto 75deg auto" max-camera-orbit="auto 75deg auto"
+                    disable-zoom disable-pan
+                    style="position:absolute;inset:0;width:100%;height:100%"></model-viewer>
+            </div>
+            <p>
+                A gift to its owner’s sister. The fox LEGO contains irreplaceable fondness towards foxes as a playful
+                and cheeky character, as well as the memory of sister’s first independent LEGO set. This shared
+                merchandise also reflects its owner’s sense of creativity and immersion towards fantasy.
+            </p>
+            <nav class="pn">
+                <a data-dir="prev" href="item-10.html">&larr; Previous object</a
+                ><a data-dir="next" href="item-12.html">Next object &rarr;</a>
+            </nav>
+            <a class="btn" data-dir="out" href="room-four.html">Back to Room Four</a>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Room Three: Effort and Result</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="museum.css" />
+        <script src="museum.js"></script>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    </head>
+    <body class="rp r3" data-prev="room-two.html" data-next="room-four.html">
+        <div class="hall">
+            <div class="span">
+                <div class="ext l"></div>
+                <div class="ext r"></div>
+                <main class="room">
+                    <div class="floor"></div>
+                    <div class="runner"></div>
+                    <div class="wall w1"></div>
+                    <div class="wall w2"></div>
+                    <div class="wall w3"></div>
+                    <div class="title"><b>Room Three</b><i>Category three</i></div>
+                    <a
+                        class="art a1"
+                        href="item-7.html"
+                        data-dir="in"
+                        data-item="7"
+                        style="--d: 0.2s"
+                        aria-label="Open Object 7"
+                        ><div
+                            class="f f1"
+                            style="background-image: url(taeyong-1.png)"></div>
+                        <div
+                            class="f f2"
+                            style="background-image: url(taeyong-2.png)"></div>
+                        <div
+                            class="f f3"
+                            style="background-image: url(taeyong-1.png)"></div>
+                        <div
+                            class="f f4"
+                            style="background-image: url(taeyong-2.png)"></div
+                    ></a>
+                    <a class="plaque p1" href="item-7.html" data-dir="in" data-item="7" style="--d: 0.45s"
+                        ><b>Taeyong PC</b><span>Participant 6</span></a
+                    >
+                    <a
+                        class="art a2"
+                        href="item-8.html"
+                        data-dir="in"
+                        data-item="8"
+                        style="--d: 0.35s"
+                        aria-label="Open Object 8">
+                        <model-viewer
+                            src="airpod.glb"
+                            alt="Object 8"
+                            auto-rotate
+                            disable-zoom
+                            interaction-prompt="none"
+                            camera-orbit="0deg 75deg 140%"
+                            style="
+                                width: 100%;
+                                height: 100%;
+                                pointer-events: none;
+                                background: transparent;
+                            "></model-viewer>
+                    </a>
+                    <a class="plaque p2" href="item-8.html" data-dir="in" data-item="8" style="--d: 0.6s"
+                        ><b>Airpods</b><span>Participant 1</span></a
+                    >
+                    <a
+                        class="art a3"
+                        href="item-9.html"
+                        data-dir="in"
+                        data-item="9"
+                        style="--d: 0.5s"
+                        aria-label="Open Object 9"
+                        ><div
+                            class="pic"
+                            style="background-image: url(jersey.jpg)"></div
+                    ></a>
+                    <a class="plaque p3" href="item-9.html" data-dir="in" data-item="9" style="--d: 0.75s"
+                        ><b>Jersey</b><span>Participant 9</span></a
+                    >
+                    <a class="prev" data-dir="prev" href="room-two.html">&larr; Room Two</a>
+                    <a class="next" data-dir="next" href="room-four.html">Walk on to Room Four <i>&uarr;</i></a>
+                    <div class="vignette"></div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
